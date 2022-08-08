@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body style="overflow: hidden;">
+    <section class="introPage" id="home">
+        <nav>
+            <ul>
+                <li class="logo">Vishakha Sawra</li>
+                <div class="items" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Back to Home</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="workreq">
+              <h1><a href="mailto:vishakhasawra@gmail.com">
+                    vishakhasawra@gmail.com</a>
+              </h1>
+             <div class="icons">
+                <a href="https://github.com/Vishakha-Sawra" target="_blank" style="color: #fff !important"><i
+                    class="fab fa-github  fa-4x" id="icon"></i></a>
+                <a href="https://www.linkedin.com/in/vishakha-sawra-80a873206/" target="_blank"
+                style="color: #fff !important"><i class="fab fa-linkedin  fa-4x" id="icon"></i></a>
+                <a href="https://www.instagram.com/vishakha_sawra/" target="_blank" style="color: #fff !important"><i
+                    class="fab fa-instagram  fa-4x" id="icon"></i>
+             </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
